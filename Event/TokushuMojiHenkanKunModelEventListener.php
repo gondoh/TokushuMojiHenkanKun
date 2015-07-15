@@ -44,7 +44,6 @@ class TokushuMojiHenkanKunModelEventListener extends BcModelEventListener {
 	
 	public function pageBeforeSave(CakeEvent $event) {
 		$Page = $event->subject();
-		exit;
 		$tmhkConverter = new TmhkConverter();
 		$targetColums = array(
 			'title',
