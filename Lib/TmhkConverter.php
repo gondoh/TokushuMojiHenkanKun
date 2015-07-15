@@ -45,6 +45,6 @@ class TmhkConverter {
 		foreach($this->conveters as $converterInstance){
 			$str = $converterInstance->convert($str);
 		}
-		return str;
+		return $str;
 	}
 }
