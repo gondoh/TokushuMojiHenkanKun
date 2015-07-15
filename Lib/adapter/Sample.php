@@ -1,5 +1,5 @@
 <?php
-class DakutenConcat implements TmhkConvertInterface
+class Sample implements TmhkConvertInterface
 {
 	public function convert($str) {
 		return $str;
