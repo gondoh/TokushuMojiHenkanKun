@@ -38,7 +38,6 @@ class DakutenConcat implements TmhkConvertInterface
 			'ホ゜' => 'ポ',
 			'ウ゛' => 'ヴ',
 		);
-		p(str_replace(array_keys($convertList), array_values($convertList), $str));
 		return str_replace(array_keys($convertList), array_values($convertList), $str);
 	}
 
